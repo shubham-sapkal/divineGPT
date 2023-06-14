@@ -76,12 +76,24 @@
 }
 
 @media screen and (max-width:731px) {
+    .div1{
+        position: relative;
+    }
     .cols {
-      flex-direction: column !important;
+        display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      height: 900px;
+    }
+
+    form
+    {
+       position: static;
     }
   
-    .hiderow {
-      display: none !important;
-    }
-  }
+}
+
+
   
