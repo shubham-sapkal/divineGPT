@@ -5,13 +5,13 @@ Introducing Divine-GPT, an impressive chatbot clone utilizing OpenAI's GPT-3.5 l
 
 Developed with Vue.js, vanilla JavaScript, and Node.js, this project showcases a cutting-edge conversational experience. Engage in natural language conversations with Divine-GPT to witness its remarkable understanding of context, informative responses, and human-like text generation. Whether seeking knowledge, assistance, or a friendly chat, Divine-GPT delivers an interactive and intelligent virtual companion. 
 
-Experience the future of human-computer interaction at [insert project link], where Divine-GPT seamlessly bridges the gap between humans and AI, providing an engaging and immersive conversational platform for all users.
+Experience the future of human-computer interaction at [https://divine-gpt.vercel.app/](https://divine-gpt.vercel.app/), where Divine-GPT seamlessly bridges the gap between humans and AI, providing an engaging and immersive conversational platform for all users.
 
 
 
 
 
-## Features of GroceryListApp
+## Features of DivineGPT
 
 
 - Chatbot functionality: Divine-GPT serves as a chatbot, allowing users to engage in natural language conversations.
