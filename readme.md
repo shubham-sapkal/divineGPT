@@ -32,7 +32,7 @@ Experience the future of human-computer interaction at [insert project link], wh
 
 ## Demo
 
-![Demo Video](https://github.com/shubham-sapkal/divineGPT/blob/master/client/demo.mkv)
+![Demo Video](https://github.com/shubham-sapkal/divineGPT/blob/master/client/demo.gif)
 ## Deployment
 
 To deploy this project, enter following commands
