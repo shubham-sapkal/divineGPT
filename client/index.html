@@ -6,19 +6,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DivineGPT</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="home.css">
+
+    <link rel="shortcut icon" href="assets/divinetree.png" type="image/x-icon">
+
   </head>
   <body>
     <div id="app">
 
       <div id="chat_container"></div>
 
-      <div id="header">
+
+      <div class="div1" id="header">
+
         <h1>DivineGPT</h1>
+
+        <div class="cols div-cols" >
+          <div class="row div-row" >
+            <img src="assets/sun.svg" alt="sun" />
+            <p >Examples</p>
+            <div class="div-row__container" >
+              "Explain quantum computing in simple terms"
+            </div>
+            <div class="div-row__content" >
+              "Got any creative ideas for a 10 year old’s birthday?"
+            </div>
+
+            <div class="div-row__container">
+              "How do I make an HTTP request in Javascript?"
+            </div>
+          </div>
+          <div class="row hiderow rowhide" >
+            <img src="assets/thunder.svg" alt="thunder" />
+            <p>Capabilities</p>
+            <div class="hiderow div-row__content" >
+              Remembers what user said earlier in the conversation
+            </div>
+            <div class="div-row__content">
+              Allows user to provide follow-up corrections
+            </div>
+            <div class="hiderow div-row__content" >
+              Trained to decline inappropriate requests
+            </div>
+          </div>
+          <div class="row hiderow rowhide" >
+            <img src="assets/alert.svg" alt="alert"/>
+            <p>Limitations</p>
+            <div class="hiderow div-row__content" >
+              May occasionally generate incorrect information
+            </div>
+            <div
+              class="hiderow div-row__content">
+              May occasionally produce harmful instructions or biased content
+            </div>
+            <div class="hiderow div-row__content">
+              Limited knowledge of world and events after 2021
+            </div>
+          </div>
+        </div>
+        
+
+
       </div>
 
       <form>
           <textarea name="prompt" cols="1" rows="1" placeholder="Ask DivineGPT ... "></textarea>
-          <button type="submit"> <img src="assets/send.svg"/> </button>
+          <button type="submit"> <img src="assets/send.svg"   /> </button>
       </form>
 
     </div>
